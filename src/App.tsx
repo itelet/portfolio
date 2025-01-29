@@ -4,6 +4,7 @@ import Header from "./components/Header/Header";
 import { ThemeProvider } from "react-bootstrap";
 import { About } from "./components/About/About";
 import { Experience } from "./components/Experience/Experience";
+import { Gallery } from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
         <Header />
 				<About />
 				<Experience />
+				<Gallery />
+				
+				{/* TODO Temp */}
+				<div className="h-80" />
       </ThemeProvider>
     </div>
   );
