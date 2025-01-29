@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header/Header";
 import { ThemeProvider } from "react-bootstrap";
 import { About } from "./components/About/About";
-import { Experience } from "./components/Experience/experience";
+import { Experience } from "./components/Experience/Experience";
 
 function App() {
   return (
