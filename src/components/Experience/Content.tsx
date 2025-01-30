@@ -14,16 +14,17 @@ import mongoIcon from "../../assets/images/mongo_icon.svg";
 import gitlabIcon from "../../assets/images/gitlab_icon.svg";
 import reactnativeIcon from "../../assets/images/react_native_icon.svg";
 import expoIcon from "../../assets/images/expo_icon.svg";
-import firebaseIcon from "../../assets/images/firebase-icon.svg";
+import firebaseIcon from "../../assets/images/firebase_icon.svg";
 import figmaIcon from "../../assets/images/figma_icon.svg";
 import githubIcon from "../../assets/images/github_icon.svg";
 import pythonIcon from "../../assets/images/python_icon.svg";
 import electronIcon from "../../assets/images/electron_icon.svg";
+import soundWaveIcon from "../../assets/images/sound_wave_icon.svg";
 import { Section } from "./Section";
 
 export const Content = () => {
   return (
-    <Row className="h-full w-[85%]">
+    <Row className="h-full w-[85%] md:w-[85%] 2xl:w-[65%]">
       <Col xs={12} sm={12} md={12} lg={12} className="h-full w-full">
         <Section
           headingElement={ExperienceHeading01}
@@ -60,6 +61,12 @@ export const Content = () => {
 							text: "Winforms",
 							bgColor: "bg-[#9D4F96]",
 							textColor: "text-[#6F1C7B]",
+						},
+						{
+							icon: soundWaveIcon,
+							text: "Sound synthesis",
+							bgColor: "bg-[#FAFAFA]",
+							textColor: "text-[#1E1E1E]",
 						}
           ]}
         />

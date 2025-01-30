@@ -18,7 +18,7 @@ export const Section = ({ headingElement, mainText, icons }) => {
           </p>
         </div>
       </Col>
-      <Col className="pl-8 justify-start">
+      <Col className="pl-4 justify-start">
         <div className="flex items-start gap-2 flex-wrap">
 					{
 						icons.map((icon) => {
