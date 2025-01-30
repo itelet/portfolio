@@ -15,6 +15,12 @@ import GD2 from "../../assets/images/gallery/gd/2.jpg";
 import GD3 from "../../assets/images/gallery/gd/3.jpg";
 import GD4 from "../../assets/images/gallery/gd/4.jpg";
 
+import FL1 from "../../assets/images/gallery/freelance/1.png";
+import FL2 from "../../assets/images/gallery/freelance/2.png";
+import FL3 from "../../assets/images/gallery/freelance/3.png";
+import FL4 from "../../assets/images/gallery/freelance/4.png";
+import FL5 from "../../assets/images/gallery/freelance/5.png";
+
 export const Gallery = () => {
   const galleryData = [
     {
@@ -79,6 +85,31 @@ export const Gallery = () => {
         },
       ],
     },
+		{
+			title: "Freelance",
+      images: [
+        {
+          src: FL1,
+          description: "Complex calculator 1",
+        },
+        {
+          src: FL2,
+          description: "Email summary",
+        },
+        {
+          src: FL3,
+          description: "Complex calculator 2",
+        },
+        {
+          src: FL4,
+          description: "Web summary of requirements",
+        },
+        {
+          src: FL5,
+          description: "Email summary",
+        },
+      ],
+		}
   ];
 
   return (

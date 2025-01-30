@@ -24,7 +24,7 @@ import { Section } from "./Section";
 
 export const Content = () => {
   return (
-    <Row className="h-full w-[85%] md:w-[85%] 2xl:w-[65%]">
+    <Row className="h-full w-[85%] md:w-[85%] 2xl:w-[60%]">
       <Col xs={12} sm={12} md={12} lg={12} className="h-full w-full">
         <Section
           headingElement={ExperienceHeading01}
