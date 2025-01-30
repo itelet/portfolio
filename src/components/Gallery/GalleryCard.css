@@ -1,0 +1,60 @@
+/* Custom Modal Width */
+.modal-custom {
+	max-width: 90vw;
+	/* Default width for smaller screens */
+	width: auto;
+	/* Allow the modal to adjust its width */
+	margin: 0 auto;
+	/* Center the modal */
+}
+
+/* Adjust modal width for larger screens */
+@media (min-width: 576px) {
+	.modal-custom {
+		max-width: 80vw;
+		/* Slightly larger on small screens */
+	}
+}
+
+@media (min-width: 768px) {
+	.modal-custom {
+		max-width: 70vw;
+		/* Adjust for medium screens */
+	}
+}
+
+@media (min-width: 992px) {
+	.modal-custom {
+		max-width: 60vw;
+		/* Adjust for large screens */
+	}
+}
+
+@media (min-width: 1200px) {
+	.modal-custom {
+		max-width: 50vw;
+		/* Adjust for extra-large screens */
+	}
+}
+
+.card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	/* Adjust the gap between cards */
+}
+
+.card-item {
+	flex: 1 1 calc(50% - 8px);
+	/* 2 cards per row with gap */
+	max-width: calc(50% - 8px);
+	/* Ensure cards don't exceed half the container width */
+	overflow: hidden;
+}
+
+.card-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	/* Ensures images fill the container without distortion */
+}
