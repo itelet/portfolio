@@ -3,7 +3,6 @@ import React from "react";
 import { getGalleryData } from "./getGalleryData";
 import { Title } from "./Title";
 import { Content } from "./Content";
-import { Carousel } from "react-responsive-carousel";
 
 export const Gallery = () => {
   const [galleryData] = React.useState(getGalleryData());
