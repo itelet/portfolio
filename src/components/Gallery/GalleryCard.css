@@ -1,41 +1,40 @@
 /* Custom Modal Width */
 .modal-custom {
-	max-width: 90vw;
-	/* Default width for smaller screens */
-	width: auto;
-	/* Allow the modal to adjust its width */
-	margin: 0 auto;
-	/* Center the modal */
+  width: 100vw; /* Default width for smaller screens */
+  max-width: 90vw; /* Allow the modal to adjust its width */
+  margin: 0 auto; /* Center the modal */
 }
 
 /* Adjust modal width for larger screens */
 @media (min-width: 576px) {
-	.modal-custom {
-		max-width: 80vw;
-		/* Slightly larger on small screens */
-	}
+  .modal-custom {
+    max-width: 80vw; /* Slightly larger on small screens */
+  }
 }
 
 @media (min-width: 768px) {
-	.modal-custom {
-		max-width: 70vw;
-		/* Adjust for medium screens */
-	}
+  .modal-custom {
+    max-width: 70vw; /* Adjust for medium screens */
+  }
 }
 
 @media (min-width: 992px) {
-	.modal-custom {
-		max-width: 60vw;
-		/* Adjust for large screens */
-	}
+  .modal-custom {
+    max-width: 80vw; /* Larger for large screens, but not too large */
+  }
 }
 
 @media (min-width: 1200px) {
-	.modal-custom {
-		max-width: 50vw;
-		/* Adjust for extra-large screens */
-	}
+  .modal-custom {
+    max-width: 70vw; /* Further increase width for very large screens */
+  }
 }
+/* 
+.carousel {
+  width:900px;
+  height:500px;
+  margin: auto;
+} */
 
 .card-container {
 	display: flex;

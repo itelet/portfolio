@@ -15,27 +15,30 @@ export const Content = () => {
         </div>
       </Col>
       <Col sm={10} md={7} xs={10} className="border-blue-500">
-        <p className="text-white text-left font-[Inconsolata] font-normal text-base sm:text-base md:text-base lg:text-lg xl:text-lg">
-          My name is Ádám Szabó, I'm{" "}
-          <p className="font-extrabold inline">24 years old</p> and live in
+        <p className="text-white text-left font-[Inconsolata] font-normal text-base lg:text-lg">
+          My name is Ádám Szabó. I'm{" "}
+          <span className="font-extrabold">24 years old</span> and I live in
           Hungary. I'm a native{" "}
-          <p className="font-extrabold inline">Hungarian</p> speaker, fluent in{" "}
-          <p className="font-extrabold inline">English</p>, and somewhat
-          familiar with <p className="font-extrabold inline">German</p>.
+          <span className="font-extrabold inline">Hungarian</span> speaker,
+          fluent in <span className="font-extrabold inline">English</span>, and
+          somewhat familiar with{" "}
+          <span className="font-extrabold inline">German</span>.
           <br />
           <br />
           I'm currently studying{" "}
-          <p className="font-extrabold inline">computer science</p> at
+          <span className="font-extrabold inline">
+            computer science
+          </span> at <span className="font-extrabold inline">DUE</span>, a
           university in Hungary. I'm enrolled in a hybrid degree program, where
           most of the coursework is done{" "}
-          <p className="font-extrabold inline">remotely</p>, but I attend
-          in-person sessions five times per term, plus exams. The degree is
+          <span className="font-extrabold inline">remotely</span>, but I attend
+          in-person sessions occasionally, mostly on weekends. The degree is
           equivalent to that of a traditional program. I have completed four
           terms and have three more to go.
           <br />
           <br />
           In my free time, I enjoy playing chess and developing small
-          quality-of-life modifications, such as creating chrome extensions. I
+          quality-of-life modifications, such as creating Chrome extensions. I
           also work on automations to streamline everyday tasks and make them
           more efficient.
         </p>

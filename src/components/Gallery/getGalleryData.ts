@@ -19,6 +19,10 @@ import FL3 from "../../assets/images/gallery/freelance/3.png";
 import FL4 from "../../assets/images/gallery/freelance/4.png";
 import FL5 from "../../assets/images/gallery/freelance/5.png";
 
+import STH1 from '../../assets/images/gallery/solidtaste_helper/1.png';
+import STH2 from '../../assets/images/gallery/solidtaste_helper/2.png';
+import STH3 from '../../assets/images/gallery/solidtaste_helper/3.png';
+
 export const getGalleryData = () => {
   return [
     {
@@ -59,6 +63,23 @@ export const getGalleryData = () => {
         {
           src: ST9,
           description: "Dark mode search screen",
+        },
+      ],
+    },
+		{
+      title: "Solid Taste electron",
+      images: [
+        {
+          src: STH1,
+          description: "Blank recipe screen",
+        },
+        {
+          src: STH2,
+          description: "Parsed recipe screen (from a single link)",
+        },
+        {
+          src: STH3,
+          description: "Loads of parsed properties",
         },
       ],
     },

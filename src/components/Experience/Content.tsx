@@ -1,5 +1,4 @@
 import { Col, Row } from "react-bootstrap";
-import { IconElement } from "./IconElement";
 import ExperienceHeading01 from "../../assets/images/experience_text_01.svg";
 import ExperienceHeading02 from "../../assets/images/experience_text_02.svg";
 import ExperienceHeading03 from "../../assets/images/experience_text_03.svg";
@@ -29,7 +28,7 @@ export const Content = () => {
           headingElement={ExperienceHeading01}
           mainText={
 						<p>
-							My passion for software development began in <span className="font-extrabold">2010</span> when I was just 10 years old. I started by writing and maintaining scripts for popular games, which sparked my interest in coding. Although I briefly lost interest, high school reignited my curiosity. During this time, I explored game development with <span className="font-extrabold">Unity</span> and 3D modeling using <span className="font-extrabold">Blender</span>.
+							My passion for software development began in <span className="font-extrabold">2010</span> when I was just 10 years old. I started by writing and maintaining scripts for popular games, which sparked my interest in coding. Although I briefly lost interest, high school reignited my curiosity. During that time, I explored game development with <span className="font-extrabold">Unity</span> and 3D modeling using <span className="font-extrabold">Blender</span>.
 						</p>
 					}
           icons={[
@@ -51,7 +50,7 @@ export const Content = () => {
           headingElement={ExperienceHeading02}
           mainText={
 						<p>
-							For my final exam project, I created a game inspired by the popular mobile game Piano Tiles, but developed for Windows using <span className="font-extrabold">C#</span> and <span className="font-extrabold">WinForms</span>. This project solidified my skills in software design and application development, setting the foundation for my career in tech.
+							After high school, I completed a one-year vocational training course in computer science. <br /> For my final exam project, I created a game inspired by the popular mobile game Piano Tiles, but developed for Windows using <span className="font-extrabold">C#</span> and <span className="font-extrabold">WinForms</span>. <br /><br />This project solidified my skills in software design and application development, setting the foundation for my career in tech.
 						</p>
 					}
           icons={[
@@ -73,10 +72,10 @@ export const Content = () => {
           headingElement={ExperienceHeading03}
 					mainText={
 						<p>
-							After completing my vocational training, I started university and at the same time I also joined Gamma Digital Kft., a Hungarian company specializing in <span className="font-extrabold">autonomous warehouse solutions</span>. I initially worked as a <span className="font-extrabold">Research and Development Intern</span>, focusing on maintaining and developing autonomous systems. My responsibilities mostly included working with autonomous conveyor routing, crane management and other robotics systems. 
+							After completing my vocational training, I started university while also joining Gamma Digital Kft., a Hungarian company specializing in <span className="font-extrabold">autonomous warehouse solutions</span>. I initially worked as a <span className="font-extrabold">Research and Development Intern</span>, focusing on maintaining and developing autonomous systems. My responsibilities mostly included working with autonomous conveyor routing, crane management and other robotics systems. 
 							<br />
 							<br />
-							Later, I transitioned into <span className="font-extrabold">Automated Guided Vehicle (AGV)</span> solutions. Here, I was promoted to <span className="font-extrabold">System Integrator Engineer</span>. In this role, I co-developed a new framework for managing AGV tasks alongside two colleagues. I frequently engaged with customers to discuss project details. Additionally, I was involved in several on-site developments. This experience gave me a deeper understanding of large-scale automation projects.
+							Later, I transitioned into <span className="font-extrabold">Automated Guided Vehicle (AGV)</span> solutions. Here, I was promoted to <span className="font-extrabold">System Integrator Engineer</span>. In this role, I co-developed a new framework for managing AGV tasks alongside two colleagues. I frequently collaborated with customers to discuss project details. Additionally, I was involved in several on-site developments. This experience gave me a deeper understanding of large-scale automation projects.
 							<br />
 							<br />
 							I also did some freelancing, mostly by creating web applications such as complex data calculators.
@@ -113,7 +112,7 @@ export const Content = () => {
           headingElement={ExperienceHeading04}
 					mainText={
 						<p className="">
-							In my free time, I started developing my own <span className="font-extrabold">mobile application</span> called <span className="font-extrabold">Solid Taste</span>, a meal planner app designed to simplify meal preparation. <br /><br />Multiple functionalities include cooking mode, automatic shopping list generation, user-friendly meal planning, light/dark mode, search, filter, multiple languages, measurement unit switch and much more. The app was built entirely from scratch, but it is <span className="font-extrabold">still in development</span> and not yet available on iOS nor on Android.
+							In my free time, I started developing my own <span className="font-extrabold">mobile application</span> called <span className="font-extrabold">Solid Taste</span>, a meal planner app designed to simplify meal preparation.<br /><br />The app includes multiple features such as cooking mode, automatic shopping list generation, user-friendly meal planning, light/dark mode, search and filtering, multi-language support, and a measurement unit switch, among many others. The app was built entirely from scratch, but it is <span className="font-extrabold">still in development</span> and not yet available on iOS or Android.<br /><br />Alongside this project, I have also developed several quality-of-life applications to streamline managing the app. These include database update automation scripts, a recipe data scraper, and various other tools to improve efficiency and reduce manual work.
 						</p>
 					}
           icons={[
@@ -168,13 +167,6 @@ export const Content = () => {
           ]}
         />
       </Col>
-      {/* <Col xs={4} sm={4} md={4} lg={4}>
-        <img
-          src={ExperienceInfographic}
-          alt="My Icon"
-          className="w-full h-full"
-        />
-      </Col> */}
     </Row>
   );
 };
