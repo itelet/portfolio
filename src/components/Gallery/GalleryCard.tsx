@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { GalleryCardElement } from "./GalleryCardElement";
-import { GalleryCardModal } from "./GalleryCardModal";
+import GalleryCardModal from "./GalleryCardModal";
 
 const GalleryCard = ({ title, images }) => {
   const [showModal, setShowModal] = useState(false);
