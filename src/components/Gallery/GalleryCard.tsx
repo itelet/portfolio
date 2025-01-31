@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Card, Modal, Carousel } from "react-bootstrap";
 
-import ClickIcon from "../../assets/images/click_icon.png";
+import ClickIcon from "../../assets/icons/click_icon.png";
 
 /*
 TODO rewrite - this whole css cinema is stupid 
