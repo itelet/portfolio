@@ -1,7 +1,12 @@
 import { Card } from "react-bootstrap";
 import ClickIcon from "../../assets/icons/click_icon.png";
+import { GalleryCardElementProps } from "./types";
 
-export const GalleryCardElement = ({ setShowModal, images, title }) => {
+export const GalleryCardElement = ({
+  setShowModal,
+  images,
+  title,
+}: GalleryCardElementProps) => {
   return (
     <Card
       className="m-2 w-72 cursor-pointer bg-[#1e1e1e] relative"

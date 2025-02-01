@@ -1,12 +1,18 @@
 import React from "react";
 import { CarouselContent } from "./utils/CarouselContent";
 import { CloseButton } from "./utils/CloseButton";
+import { GalleryCardModalProps } from "./types";
 
-const GalleryCardModal = ({ showModal, setShowModal, images, backdropClass = "bg-black/50" }) => {
+const GalleryCardModal = ({
+  showModal,
+  setShowModal,
+  images,
+  backdropClass = "bg-black/50",
+}: GalleryCardModalProps) => {
   const [currentIndex, setCurrentIndex] = React.useState(0);
 
   React.useEffect(() => {
-    const handleKeyDown = (e) => {
+    const handleKeyDown = (e: KeyboardEvent) => {
       if (!showModal) return;
       if (e.key === 'ArrowLeft') {
         setCurrentIndex((prev) => (prev - 1 + images.length) % images.length);
@@ -19,7 +25,7 @@ const GalleryCardModal = ({ showModal, setShowModal, images, backdropClass = "bg
 
     window.addEventListener('keydown', handleKeyDown);
     return () => window.removeEventListener('keydown', handleKeyDown);
-  }, [showModal, images.length]);
+  }, [showModal, images.length, setShowModal]);
 
   if (!showModal) return null;
 

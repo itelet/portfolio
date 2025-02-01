@@ -1,4 +1,6 @@
-export const ImageDescription = ({ description }) => (
+import { ImageDescriptionProps } from "../types";
+
+export const ImageDescription = ({ description }: ImageDescriptionProps) => (
   <div 
     className="absolute bottom-12 left-1/2 -translate-x-1/2 text-center"
     onClick={(e) => e.stopPropagation()}

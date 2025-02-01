@@ -1,8 +1,10 @@
 import { Col } from "react-bootstrap";
 import { IconElement } from "./IconElement";
 import { motion } from "framer-motion";
+import { ReactNode } from "react";
+import { SectionProps } from "./types";
 
-export const Section = ({ headingElement, mainText, icons }) => {
+export const Section = ({ headingElement, mainText, icons }: SectionProps) => {
   return (
     <motion.div
       initial={{ opacity: 0, y: -50 }}

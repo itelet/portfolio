@@ -1,9 +1,14 @@
+import { CarouselContentProps } from "../types";
 import { CarouselImage } from "./CarouselImage";
 import { CarouselIndicators } from "./CarouselIndicators";
 import { ImageDescription } from "./ImageDescription";
 import { IndicatorIcon } from "./IndicatorIcon";
 
-export const CarouselContent = ({ images, currentIndex, setCurrentIndex }) => {
+export const CarouselContent = ({
+  images,
+  currentIndex,
+  setCurrentIndex,
+}: CarouselContentProps) => {
   const nextSlide = () => {
     setCurrentIndex((prev) => (prev + 1) % images.length);
   };

@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import { GalleryCardElement } from "./GalleryCardElement";
 import GalleryCardModal from "./GalleryCardModal";
 import { motion } from "framer-motion";
+import { GalleryCardProps } from "./types";
 
-const GalleryCard = ({ title, images }) => {
+const GalleryCard = ({ title, images }: GalleryCardProps) => {
   const [showModal, setShowModal] = useState(false);
 
   return (

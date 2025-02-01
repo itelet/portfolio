@@ -1,4 +1,6 @@
-export const CarouselIndicators = ({ images, currentIndex, setCurrentIndex }) => (
+import { CarouselIndicatorsProps } from "../types";
+
+export const CarouselIndicators = ({ images, currentIndex, setCurrentIndex }: CarouselIndicatorsProps) => (
   <div 
     className="absolute bottom-4 left-1/2 -translate-x-1/2 flex space-x-2"
     onClick={(e) => e.stopPropagation()}
@@ -10,9 +12,7 @@ export const CarouselIndicators = ({ images, currentIndex, setCurrentIndex }) =>
           e.stopPropagation();
           setCurrentIndex(index);
         }}
-        className={`w-3 h-3 rounded-full transition-colors ${
-          index === currentIndex ? 'bg-white' : 'bg-gray-500 hover:bg-gray-400'
-        }`}
+        className={`w-3 h-3 rounded-full transition-colors ${index === currentIndex ? 'bg-white' : 'bg-gray-500 hover:bg-gray-400'}`}
       />
     ))}
   </div>
