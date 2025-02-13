@@ -24,7 +24,7 @@ export const Section = ({ headingElement, mainText, icons }: SectionProps) => {
         </Col>
         <Col>
           <div className="w-full">
-            <p className="text-white text-left mt-3 pl-4 sm:pl-6 md:pl-6 lg:pl-6 font-[Inconsolata] text-lg">
+            <p className="text-[#c5c5c5] text-left mt-3 pl-4 sm:pl-6 md:pl-6 lg:pl-6 font-[Inconsolata] text-lg">
               {mainText}
             </p>
           </div>

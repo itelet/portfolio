@@ -18,9 +18,11 @@ function App() {
         >
           <div className="h-6" />
           <Header />
+					<div className="mt-4 bg-gradient-to-b from-[#1d1d1d] to-[#1a1a1a]">
           <About />
           <Experience />
           <Gallery />
+					</div>
           <Footer />
         </ThemeProvider>
       </div>

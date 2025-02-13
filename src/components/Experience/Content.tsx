@@ -22,7 +22,7 @@ import { Section } from "./Section";
 
 export const Content = () => {
   return (
-    <Row className="h-full w-[85%] md:w-[85%] 2xl:w-[60%]">
+    <Row className="h-full w-[90%]">
       <Col xs={12} sm={12} md={12} lg={12} className="h-full w-full">
         <Section
           headingElement={ExperienceHeading01}
@@ -85,13 +85,13 @@ export const Content = () => {
 						{
 							icon: nodeIcon,
 							text: "Node.JS",
-							bgColor: "bg-[#9FFF8A]",
-							textColor: "text-[#539E43]",
+							bgColor: "bg-[#182118]",
+							textColor: "text-[#FAFAFA]",
 						},
 						{
 							icon: tsIcon,
 							text: "TypeScript",
-							bgColor: "bg-[#91BDED]",
+							bgColor: "bg-[#112133]",
 							textColor: "text-[#3178C6]",
 						},
 						{
@@ -119,7 +119,7 @@ export const Content = () => {
 						{
 							icon: reactnativeIcon,
 							text: "React Native",
-							bgColor: "bg-[#F6FDFF]",
+							bgColor: "bg-[#122323]",
 							textColor: "text-[#53C1DE]",
 						},
 						{
@@ -131,7 +131,7 @@ export const Content = () => {
 						{
 							icon: firebaseIcon,
 							text: "Firebase",
-							bgColor: "bg-[#FFD3A7]",
+							bgColor: "bg-[#241517]",
 							textColor: "text-[#F6820C]",
 						},
 						{
@@ -143,7 +143,7 @@ export const Content = () => {
 						{
 							icon: nodeIcon,
 							text: "Node.JS",
-							bgColor: "bg-[#9FFF8A]",
+							bgColor: "bg-[#182118]",
 							textColor: "text-[#539E43]",
 						},
 						{
