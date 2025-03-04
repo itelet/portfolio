@@ -6,6 +6,7 @@ import { TypewriterProvider } from "./contexts/TypeWriterContext";
 import Navbar from "./components/Navbar/Navbar";
 import Line from "./components/utils/Line";
 import TopWrapper from "./components/App/TopWrapper";
+import TechStackSection from "./components/TechStack/Section";
 
 function App() {
   return (
@@ -20,6 +21,9 @@ function App() {
         </ThemeProvider>
       </TopWrapper>
       <Line />
+      <TopWrapper>
+        <TechStackSection />
+      </TopWrapper>
     </TypewriterProvider>
   );
 }
