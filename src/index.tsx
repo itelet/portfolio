@@ -7,7 +7,6 @@ import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import "@fontsource/inconsolata";
 import "@fontsource/inconsolata/200.css"; 
 import "@fontsource/inconsolata/300.css"; 
@@ -17,6 +16,7 @@ import "@fontsource/inconsolata/600.css";
 import "@fontsource/inconsolata/700.css"; 
 import "@fontsource/inconsolata/800.css"; 
 import "@fontsource/inconsolata/900.css"; 
+import "@fontsource/inter";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
