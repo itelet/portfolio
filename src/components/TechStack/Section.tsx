@@ -1,13 +1,13 @@
-import TechStack from "./components/TechStack";
+import SectionWrapper from "../lib/SectionWrapper";
+import Title from "../lib/Title";
+import Elements from "./components/Elements";
 
 const Section = () => {
-  return (
-    <TechStack>
-      <TechStack.Wrapper>
-        <TechStack.Title text={"Tech Stack"} />
-        <TechStack.Elements />
-      </TechStack.Wrapper>
-    </TechStack>
+	return (
+	<SectionWrapper className="mt-24 md:mt-28">
+		<Title text={"Tech Stack"} />
+		<Elements />
+	</SectionWrapper>
   );
 };
 
