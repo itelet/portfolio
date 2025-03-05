@@ -12,12 +12,10 @@ const Switch = () => {
   };
 
   return (
-		<>
-			<SectionWrapper className="mt-8 mb-0">
-				<Title text={"Experience"} />
-				<SwitchComponent activeTab={activeTab} handleToggle={handleToggle} />
-			</SectionWrapper>
-		</>
+    <SectionWrapper className="mt-8 mb-0">
+      <Title text={"Experience"} />
+      <SwitchComponent activeTab={activeTab} handleToggle={handleToggle} />
+    </SectionWrapper>
   );
 };
 
