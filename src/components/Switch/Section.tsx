@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import SectionWrapper from "../lib/SectionWrapper";
 import Title from "../lib/Title";
 import SwitchComponent from "./components/SwitchComponent";
+import TopWrapper from "../lib/TopWrapper";
 
 const Switch = () => {
   const [activeTab, setActiveTab] = useState("Work");
@@ -12,10 +13,12 @@ const Switch = () => {
   };
 
   return (
-    <SectionWrapper className="mt-8 mb-0">
-      <Title text={"Experience"} />
-      <SwitchComponent activeTab={activeTab} handleToggle={handleToggle} />
-    </SectionWrapper>
+		<TopWrapper>
+			<SectionWrapper className="mt-12 mb-0">
+				<Title text={"Experience"} />
+				<SwitchComponent activeTab={activeTab} handleToggle={handleToggle} />
+			</SectionWrapper>
+		</TopWrapper>
   );
 };
 
