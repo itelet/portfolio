@@ -9,7 +9,7 @@ export default [
     company: "Solid Taste - (Personal Project)",
     position: "Founder and developer (Full-Stack)",
     description:
-      "Mobile Development (Meal Planner App); React Native + Expo; Firebase; Electron App for Recipe Data Management, automatic Parsing Script; Familiar with Google Cloud Platform (GCP); Closed Alpha Testing on Play Store; Not Available on iOS.",
+      "Mobile Development (Meal Planner App); React Native + Expo; Firebase; Electron App for Recipe Data Management, automatic Parsing Script; Google Cloud Platform (GCP); Closed Alpha Testing on Play Store; Not Available on iOS.",
   },
   {
 		img: Freelance,
