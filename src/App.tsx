@@ -7,6 +7,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Line from "./components/utils/Line";
 import TopWrapper from "./components/App/TopWrapper";
 import TechStackSection from "./components/TechStack/Section";
+import Switch from "./components/Switch/Section";
 
 function App() {
   return (
@@ -24,6 +25,10 @@ function App() {
       <TopWrapper>
         <TechStackSection />
       </TopWrapper>
+			<TopWrapper>
+				<Switch />
+			</TopWrapper>
+			<div className="h-96" />
     </TypewriterProvider>
   );
 }
