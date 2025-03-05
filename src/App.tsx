@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
-import Header from "./components/Header/Header";
+import Header from "./components/Header/Section";
 import { ThemeProvider } from "react-bootstrap";
 import { TypewriterProvider } from "./contexts/TypeWriterContext";
 import Navbar from "./components/Navbar/Navbar";
 import Line from "./components/utils/Line";
-import TopWrapper from "./components/App/TopWrapper";
+import TopWrapper from "./components/lib/TopWrapper";
 import TechStackSection from "./components/TechStack/Section";
 import Switch from "./components/Switch/Section";
+import Projects from './components/Projects/Section';
+import Footer from './components/Footer/Section';
 
 function App() {
   return (
@@ -28,7 +30,12 @@ function App() {
 			<TopWrapper>
 				<Switch />
 			</TopWrapper>
-			<div className="h-96" />
+			<TopWrapper>
+				<Projects />
+			</TopWrapper>
+			<TopWrapper>
+				<Footer />
+			</TopWrapper>
     </TypewriterProvider>
   );
 }
