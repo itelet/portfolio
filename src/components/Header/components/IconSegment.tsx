@@ -9,7 +9,7 @@ const IconSegment = () => {
     <div className="flex flex-row mt-5">
       <IconElement
         href={
-          "https://www.linkedin.com/in/%C3%A1d%C3%A1m-szab%C3%B3-803297200/"
+          "https://www.linkedin.com/in/ádám-szabó-803297200"
         }
         text={"Linked"}
         icon={
@@ -17,9 +17,7 @@ const IconSegment = () => {
         }
       />
       <IconElement
-        href={
-          "https://www.linkedin.com/in/%C3%A1d%C3%A1m-szab%C3%B3-803297200/"
-        }
+        href={""}
         text={"Email"}
         icon={
           <EmailIcon height={"100%"} width={"100%"} fillColor={"#3A3A3A"} />

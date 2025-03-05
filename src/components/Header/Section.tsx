@@ -5,16 +5,19 @@ import TextContent from "./components/TextContent";
 import HeaderWrapper from "./components/HeaderWrapper";
 import GreenLine from "./components/GreenLine";
 import ContentWrapper from "./components/ContentWrapper";
+import TopWrapper from "../lib/TopWrapper";
 
 const Header = () => {
   return (
-    <HeaderWrapper>
-      <GreenLine />
-      <ContentWrapper>
-        <TextContent />
-        <IconSegment />
-      </ContentWrapper>
-    </HeaderWrapper>
+		<TopWrapper>
+			<HeaderWrapper>
+				<GreenLine />
+				<ContentWrapper>
+					<TextContent />
+					<IconSegment />
+				</ContentWrapper>
+			</HeaderWrapper>
+		</TopWrapper>
   );
 };
 
