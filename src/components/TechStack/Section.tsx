@@ -1,13 +1,16 @@
 import SectionWrapper from "../lib/SectionWrapper";
 import Title from "../lib/Title";
+import TopWrapper from "../lib/TopWrapper";
 import Elements from "./components/Elements";
 
 const Section = () => {
 	return (
-	<SectionWrapper className="mt-24 md:mt-28">
-		<Title text={"Tech Stack"} />
-		<Elements />
-	</SectionWrapper>
+		<TopWrapper>
+			<SectionWrapper className="mt-24 md:mt-32">
+				<Title text={"Tech Stack"} />
+				<Elements />
+			</SectionWrapper>
+	</TopWrapper>
   );
 };
 
