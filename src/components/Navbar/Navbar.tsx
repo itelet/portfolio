@@ -9,7 +9,7 @@ const Navbar = () => {
         <LinkElement href="/portfolio" text="Home" />
         <LinkElement href="/portfolio/about" text="About" />
         <LinkElement href="/portfolio/projects" text="Projects" />
-        <LinkElement href="/portfolio/contact" text="Contact" />
+        {/* <LinkElement href="/portfolio/contact" text="Contact" /> */}
       </LinkWrapper>
     </NavWrapper>
   );

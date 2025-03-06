@@ -15,7 +15,7 @@ const Section = () => {
 
   return (
     <TopWrapper>
-      <SectionWrapper className="mt-8 mb-0">
+      <SectionWrapper className="mt-auto mb-0">
         <ContentWrapper>
           <CopyrightText />
           <div className="flex flex-row items-center">

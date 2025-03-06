@@ -20,7 +20,7 @@ const Element = ({
 
   const handleClick = () => {
     console.log(`Clicked on project: ${title}`);
-    navigate(`projects/${link}`); // Navigate to the link
+    navigate(`/portfolio/projects/${link}`); // Navigate to the link
   };
 
   return (

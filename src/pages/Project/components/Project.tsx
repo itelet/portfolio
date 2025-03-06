@@ -10,7 +10,7 @@ import TechStack from './TechStack';
 
 const Project = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="w-[800px] text-left font-[Inter] rounded-xl flex flex-col bg-[#131313] p-4">
+    <div className="w-[850px] text-left font-[Inter] rounded-xl flex flex-col bg-[#131313] p-10">
       {children}
     </div>
   );
