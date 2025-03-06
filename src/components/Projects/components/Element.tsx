@@ -16,11 +16,10 @@ const Element = ({
   description: string;
   link: string;
 }) => {
-  const [, navigate] = useLocation(); // Wouter navigation function
+  const [, navigate] = useLocation();
 
   const handleClick = () => {
-    console.log(`Clicked on project: ${title}`);
-    navigate(`/portfolio/projects/${link}`); // Navigate to the link
+    navigate(`/projects/${link}`);
   };
 
   return (
