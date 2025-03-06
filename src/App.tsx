@@ -22,10 +22,10 @@ function App() {
         <Navbar />
 
         <Switch>
-          <Route path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/projects" component={Projects} />
-          <Route path="/projects/:name" component={Project} />
+          <Route path="/portfolio" component={Home} />
+          <Route path="/portfolio/about" component={About} />
+          <Route path="/portfolio/projects" component={Projects} />
+          <Route path="/portfolio/projects/:name" component={Project} />
         </Switch>
         {/* <Footer /> */}
       </ThemeProvider>
