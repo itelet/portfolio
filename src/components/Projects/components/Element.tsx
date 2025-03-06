@@ -1,3 +1,4 @@
+import { useLocation } from "wouter";
 import Description from "./Description";
 import DiscoverButton from "./DiscoverButton";
 import ElementWrapper from "./ElementWrapper";
@@ -8,15 +9,18 @@ const Element = ({
   img,
   title,
   description,
+  link,
 }: {
   img: string;
   title: string;
   description: string;
+  link: string;
 }) => {
-  // const navigate = useNavigate();
+  const [, navigate] = useLocation(); // Wouter navigation function
 
   const handleClick = () => {
     console.log(`Clicked on project: ${title}`);
+    navigate(`projects/${link}`); // Navigate to the link
   };
 
   return (
@@ -25,7 +29,7 @@ const Element = ({
       <ImageWithContainer img={img} title={title} />
       <div className="flex flex-row items-center justify-between mt-4 px-6">
         <Title title={title} />
-        <DiscoverButton />
+        <DiscoverButton handleClick={handleClick} />
       </div>
       <Description description={description} />
     </ElementWrapper>

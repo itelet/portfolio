@@ -1,8 +1,9 @@
-const DiscoverButton = () => {
+const DiscoverButton = ({ handleClick }: { handleClick: () => void }) => {
   return (
     <div
       onClick={(e) => {
         e.stopPropagation();
+        handleClick();
       }}
       className="
             font-[Inter] 
