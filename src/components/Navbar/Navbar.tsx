@@ -6,10 +6,10 @@ const Navbar = () => {
   return (
     <NavWrapper>
       <LinkWrapper>
-        <LinkElement href="#home" text="Home" />
-        <LinkElement href="#about" text="About" />
-        <LinkElement href="#projects" text="Projects" />
-        <LinkElement href="#contact" text="Contact" />
+        <LinkElement href="/" text="Home" />
+        <LinkElement href="/about" text="About" />
+        <LinkElement href="/projects" text="Projects" />
+        <LinkElement href="/contact" text="Contact" />
       </LinkWrapper>
     </NavWrapper>
   );
