@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d1a7d680.css",
-    "main.js": "/portfolio/static/js/main.2cb6cc42.js",
+    "main.css": "/portfolio/static/css/main.f5969811.css",
+    "main.js": "/portfolio/static/js/main.8a3815b8.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/recipe-parser-video.mp4": "/portfolio/static/media/recipe-parser-video.45a6ee9c34b2be5f8149.mp4",
     "static/media/solid-taste-high-res.png": "/portfolio/static/media/solid-taste-high-res.3ec85859383e386c6ead.png",
+    "static/media/freelance-insulation-high-res.png": "/portfolio/static/media/freelance-insulation-high-res.4606644c056ba667fabd.png",
+    "static/media/portfolio-high-res.png": "/portfolio/static/media/portfolio-high-res.a221103237d341d690fa.png",
+    "static/media/freelance-window-high-res.png": "/portfolio/static/media/freelance-window-high-res.550088250d7840aaa7fa.png",
     "static/media/solid-taste.png": "/portfolio/static/media/solid-taste.5f3e064c1c48ef3a9e23.png",
     "static/media/self.jpg": "/portfolio/static/media/self.fea8d8f16fb0a8ac2300.jpg",
     "static/media/recipe-parser.png": "/portfolio/static/media/recipe-parser.4850edafd9a1c554289c.png",
@@ -227,12 +231,12 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/portfolio/static/media/roboto-greek-ext-300-normal.b590dbe5c639944366d1.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/portfolio/index.html",
-    "main.d1a7d680.css.map": "/portfolio/static/css/main.d1a7d680.css.map",
-    "main.2cb6cc42.js.map": "/portfolio/static/js/main.2cb6cc42.js.map",
+    "main.f5969811.css.map": "/portfolio/static/css/main.f5969811.css.map",
+    "main.8a3815b8.js.map": "/portfolio/static/js/main.8a3815b8.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1a7d680.css",
-    "static/js/main.2cb6cc42.js"
+    "static/css/main.f5969811.css",
+    "static/js/main.8a3815b8.js"
   ]
 }
