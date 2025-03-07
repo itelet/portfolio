@@ -15,23 +15,26 @@ import { FontLoaderProvider } from "./contexts/FontLoaderContext";
 function App() {
   return (
     <Router hook={useHashLocation}>
-      <FontLoaderProvider>
-        <TypewriterProvider>
-          <ThemeProvider
-            breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
-            minBreakpoint="xxs"
-          >
-            <Navbar />
-            <Switch>
-              <Route path="/" component={Home} />
-              <Route path="/about" component={About} />
-              <Route path="/projects" component={Projects} />
-              <Route path="/projects/:name" component={Project} />
-            </Switch>
-            {/* <Footer /> */}
-          </ThemeProvider>
-        </TypewriterProvider>
-      </FontLoaderProvider>
+			<div className="min-h-screen flex flex-col">
+				<FontLoaderProvider>
+					<TypewriterProvider>
+						<ThemeProvider
+							breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
+							minBreakpoint="xxs"
+						>
+							<Navbar />
+							<Switch>
+								<Route path="/" component={Home} />
+								<Route path="/about" component={About} />
+								<Route path="/projects" component={Projects} />
+								<Route path="/projects/:name" component={Project} />
+							</Switch>
+							<div className="h-10" />
+							<Footer />
+						</ThemeProvider>
+					</TypewriterProvider>
+				</FontLoaderProvider>
+			</div>
     </Router>
   );
 }

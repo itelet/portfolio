@@ -16,7 +16,7 @@ const ContentWrapper = ({ children }: { children: React.ReactNode }) => {
     items-center 
     gap-2 
     sm:gap-0 
-    mt-auto
+    mt-auto w-full sm:w-full md:w-full lg:w-[80%] xl:w-[65%] 2xl:w-[50%] self-center
   "
     >
       {children}
