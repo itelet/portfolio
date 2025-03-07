@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f5969811.css",
-    "main.js": "/portfolio/static/js/main.8a3815b8.js",
+    "main.css": "/portfolio/static/css/main.72e9cfbd.css",
+    "main.js": "/portfolio/static/js/main.048de48a.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/recipe-parser-video.mp4": "/portfolio/static/media/recipe-parser-video.45a6ee9c34b2be5f8149.mp4",
     "static/media/solid-taste-high-res.png": "/portfolio/static/media/solid-taste-high-res.3ec85859383e386c6ead.png",
@@ -231,12 +231,12 @@
     "static/media/roboto-greek-ext-300-normal.woff": "/portfolio/static/media/roboto-greek-ext-300-normal.b590dbe5c639944366d1.woff",
     "static/media/roboto-greek-ext-400-normal.woff": "/portfolio/static/media/roboto-greek-ext-400-normal.16eb83b4a3b1ea994243.woff",
     "index.html": "/portfolio/index.html",
-    "main.f5969811.css.map": "/portfolio/static/css/main.f5969811.css.map",
-    "main.8a3815b8.js.map": "/portfolio/static/js/main.8a3815b8.js.map",
+    "main.72e9cfbd.css.map": "/portfolio/static/css/main.72e9cfbd.css.map",
+    "main.048de48a.js.map": "/portfolio/static/js/main.048de48a.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5969811.css",
-    "static/js/main.8a3815b8.js"
+    "static/css/main.72e9cfbd.css",
+    "static/js/main.048de48a.js"
   ]
 }
