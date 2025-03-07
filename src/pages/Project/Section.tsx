@@ -10,7 +10,10 @@ interface IProjectState {
   description: string;
   link: string;
   additional: {
-    imgHighRes: any;
+		sourceCode: null | string;
+		demo: null | string;
+    video?: any;
+    imgHighRes?: any;
     longDescription: string;
     overviewText: string;
     status: string;
@@ -54,8 +57,8 @@ const Section = ({ params }: { params: { name: string } }) => {
             <Project.Title title={projectState.title} />
 						<Project.LongDescription longDescription={projectState.additional.longDescription} />
 						<Project.LastUpdated lastUpdate={projectState.additional.lastUpdate} />
-						<Project.Image imgHighRes={projectState.additional.imgHighRes} title={projectState.title} />
-						<Project.DemoSourceCode />
+						<Project.Image imgHighRes={projectState.additional.imgHighRes ?? ""} video={projectState.additional.video ?? ""} title={projectState.title} />
+						<Project.DemoSourceCode demo={projectState.additional.demo} sourceCode={projectState.additional.sourceCode} />
 						<Project.OverviewText overviewText={projectState.additional.overviewText} />
 						<Project.Features features={projectState.additional.features} />
 						<Project.Status status={projectState.additional.status} />

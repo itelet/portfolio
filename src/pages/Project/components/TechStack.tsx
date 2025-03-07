@@ -38,7 +38,7 @@ const TechStack = ({
           <span className="font-medium text-base text-white">
             Testing & Dev Tools
           </span>
-					{ techStack.backend.map((elem) => { return <><br />{elem}</> }) }
+					{ techStack.devTools.map((elem) => { return <><br />{elem}</> }) }
         </div>
       </div>
     </>
