@@ -29,7 +29,7 @@ export default [
   },
   {
 		img: GammaDigital,
-    fromTo: "Mar 2024 - Ongoing",
+    fromTo: "Aug 2021 - Dec 2023",
     company: "Gamma Digital Kft.",
     position: "Research and Development Intern (Backend)",
     description:
