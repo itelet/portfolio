@@ -1,6 +1,6 @@
-import SectionWrapper from "../lib/SectionWrapper";
-import Title from "../lib/Title";
-import TopWrapper from "../lib/TopWrapper";
+import SectionWrapper from "../../../../components/lib/SectionWrapper";
+import Title from "../../../../components/lib/Title";
+import TopWrapper from "../../../../components/lib/TopWrapper";
 import Elements from "./components/Elements";
 
 const Section = () => {

@@ -43,7 +43,7 @@ const AboutMeText = () => {
 const AboutMeDescription = () => {
   return (
     <span className="text-xl font-[Inter] font-normal text-[#9A9A9A] mt-4">
-      Hi, I'm Ádám, a 24-year-old computer science engineer based in Hungary 🇭🇺.
+      Hi, I'm Ádám, a 24-year-old computer science engineer based in <span className="font-bold">Hungary 🇭🇺</span>.
       I'm a native Hungarian speaker, fluent in English, and somewhat familiar
       with German. I'm currently studying at the University of Dunaújváros. I am
       in a hybrid degree program, where most coursework is done remotely.

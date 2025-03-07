@@ -1,4 +1,4 @@
-import techStackElements from "../../../config/techStackElements";
+import techStackElements from "../../../../../config/techStackElements";
 import Element from "./Element";
 import ElementWrapper from "./ElementWrapper";
 

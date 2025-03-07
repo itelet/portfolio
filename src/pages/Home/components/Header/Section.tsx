@@ -5,7 +5,7 @@ import TextContent from "./components/TextContent";
 import HeaderWrapper from "./components/HeaderWrapper";
 import GreenLine from "./components/GreenLine";
 import ContentWrapper from "./components/ContentWrapper";
-import TopWrapper from "../lib/TopWrapper";
+import TopWrapper from "../../../../components/lib/TopWrapper";
 
 const Header = () => {
   return (

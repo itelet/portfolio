@@ -1,5 +1,5 @@
-import experiencesConfig from "../../../config/experiences";
-import educationConfig from "../../../config/education";
+import experiencesConfig from "../../../../../config/experiences";
+import educationConfig from "../../../../../config/education";
 import ContentElement from "./ContentElement";
 
 const Content = ({ activeTab }: { activeTab: string }) => {

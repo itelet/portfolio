@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import SectionWrapper from "../lib/SectionWrapper";
-import Title from "../lib/Title";
+import SectionWrapper from "../../../../components/lib/SectionWrapper";
+import Title from "../../../../components/lib/Title";
 import SwitchComponent from "./components/SwitchComponent";
-import TopWrapper from "../lib/TopWrapper";
+import TopWrapper from "../../../../components/lib/TopWrapper";
 
 const Switch = () => {
   const [activeTab, setActiveTab] = useState("Work");

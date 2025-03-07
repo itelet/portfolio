@@ -1,7 +1,7 @@
 import React from "react";
 
-import LinkedinIcon from "../../../assets/icons/linkedin";
-import EmailIcon from "../../../assets/icons/email";
+import LinkedinIcon from "../../../../../assets/icons/linkedin";
+import EmailIcon from "../../../../../assets/icons/email";
 import IconElement from "./IconElement";
 
 const IconSegment = () => {
